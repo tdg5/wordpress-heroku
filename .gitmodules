@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/wp-amazon-web-services"]
+	path = wp-content/plugins/wp-amazon-web-services
+	url = https://github.com/deliciousbrains/wp-amazon-web-services.git
