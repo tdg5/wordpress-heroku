@@ -1,0 +1,5 @@
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku addons:add heroku-postgresql:dev
+heroku pg:promote $DB_URL
+heroku config:add BUILDPACK_URL=git://github.com/iphoting/heroku-buildpack-php-tyler.git
+git push -f heroku production:master
