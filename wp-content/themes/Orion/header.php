@@ -52,25 +52,20 @@ wp_enqueue_script('mobilemenu', get_stylesheet_directory_uri() .'/js/jquery.mobi
 </head>
 <body <?php body_class(); ?> >
 
-<div class="topbar">
-	<div class="container">
-		<div class="topfeed"> <a href="<?php bloginfo('rss2_url'); ?>" > Subscribe to RSS feed </a> </div>
-	</div>
-</div>
-
 <div class="top">
 	<div class="container">
-		<div class="sixteen columns head">	
-			<div class="four columns alpha">
-				<div id="blogname">	
+		<div class="sixteen columns head">
+			<div class="seven columns alpha">
+				<div id="blogname">
 					<h1><a href="<?php bloginfo('siteurl');?>/" title="<?php bloginfo('name');?>"><?php bloginfo('name');?></a></h1>
 				</div>
 			</div>
-			<div class="twelve columns omega">
+			<div class="eight columns">
 				<div id="botmenu">
 					<?php wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?>
 				</div>
 			</div>
+			<a class="one icon rss columns omega" href="<?php bloginfo('rss2_url'); ?>"></a>
 		</div>
 	</div>
 </div>

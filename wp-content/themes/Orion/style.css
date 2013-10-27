@@ -168,17 +168,12 @@ box-shadow:0 0 5px #000;
 
 /* Head */
 
-.topbar{
-	background:url(images/dark.png);
-}
-
-.topfeed{
-	font-size:11px;
-	padding:5px 0px;
-}
-.topfeed a:link, .topfeed a:visited{
-	color:#999;
-	text-decoration:none;
+.icon.rss{
+  background: transparent url(images/rss.png) center no-repeat;
+  float: right;
+  height: 50px;
+  margin-top: 9px;
+  width: 32px;
 }
 
 .top{
