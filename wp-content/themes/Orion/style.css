@@ -1123,7 +1123,10 @@ html[xmlns] .slides {display: block;}
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {background: #fff; position: relative; zoom: 1;}
-.flexslider .slides {zoom: 1;}
+.flexslider .slides {
+  border: 2px solid #000;
+  zoom: 1;
+}
 .flexslider .slides > li {position: relative;}
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flex-container {zoom: 1; position: relative;}
