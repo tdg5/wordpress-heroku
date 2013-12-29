@@ -62,13 +62,13 @@ $options = array (
 	array("name" => "Banner-1 Image",
 			"desc" => "Enter your 125 x 125 banner image url here.",
             "id" => $shortname."_banner1",
-        	"std" => "http://web2feel.com/images/webhostinghub.png",
+        	"std" => "",
             "type" => "text"), 
 			
 	array("name" => "Banner-1 Image alt tag",
 			"desc" => "Enter your banner alt tag.",
             "id" => $shortname."_alt1",
-        	"std" => "Reliable web hosting from WebHostingHub.com.",
+        	"std" => "",
             "type" => "text"),    
 	  
 	array("name" => "Banner-1 Url",
@@ -80,7 +80,7 @@ $options = array (
 	array("name" => "Banner-1 link title",
 			"desc" => "Enter the banner-1 title here.",
             "id" => $shortname."_lab1",
-            "std" => "Web Hosting Hub - Cheap reliable web hosting.",
+            "std" => "",
             "type" => "text"),   
 	
 	array("type" => "break"),
@@ -88,52 +88,52 @@ $options = array (
 	array("name" => "Banner-2 Image",
 			"desc" => "Enter your 125 x 125 banner image url here.",
             "id" => $shortname."_banner2",
-            "std" => "http://web2feel.com/images/pcnames.png",
+            "std" => "",
             "type" => "text"),    
 	
 	array("name" => "Banner-2 Image alt tag",
 			"desc" => "Enter your banner alt tag.",
             "id" => $shortname."_alt2",
-        	"std" => "Domain name search and availability check by PCNames.com.",
+        	"std" => "",
             "type" => "text"),    	   
 	   
 	   
 	array("name" => "Banner-2 Url",
 			"desc" => "Enter the banner-2 url here.",
             "id" => $shortname."_url2",
-            "std" => "http://www.pcnames.com/",
+            "std" => "",
             "type" => "text"), 
 
 	array("name" => "Banner-2 link title",
 			"desc" => "Enter the banner-2 title here.",
             "id" => $shortname."_lab2",
-            "std" => "PC Names - Domain name search and availability check",
+            "std" => "",
             "type" => "text"),   
 
 	array("type" => "break"),		
 			
 	array("name" => "Banner-3 Image",
-			"desc" => "Enter your 125 x 125 banner image url here.",
+			"desc" => "",
             "id" => $shortname."_banner3",
-            "std" => "http://web2feel.com/images/designcontest.png",
+            "std" => "",
             "type" => "text"),  
 
 	array("name" => "Banner-3 Image alt tag",
 			"desc" => "Enter your banner alt tag.",
             "id" => $shortname."_alt3",
-        	"std" => "Website and logo design contests at DesignContest.com.",
+        	"std" => "",
             "type" => "text"),    			
 	   
 	array("name" => "Banner-3 Url",
 			"desc" => "Enter the banner-3 url here.",
             "id" => $shortname."_url3",
-            "std" => "http://www.designcontest.com/",
+            "std" => "",
             "type" => "text"),
 
 	array("name" => "Banner-3 link title",
 			"desc" => "Enter the banner-3 title here.",
             "id" => $shortname."_lab3",
-            "std" => "Design Contest - Logo and website design contests",
+            "std" => "",
             "type" => "text"), 		
 
 	array("type" => "break"),
@@ -141,25 +141,25 @@ $options = array (
 	array(  "name" => "Banner-4 Image",
 			"desc" => "Enter your 125 x 125 banner image url here.",
             "id" => $shortname."_banner4",
-            "std" => "http://web2feel.com/images/webhostingrating.png",
+            "std" => "",
             "type" => "text"),    
 
 	array(  "name" => "Banner-4 Image alt tag",
 			"desc" => "Enter your banner alt tag.",
             "id" => $shortname."_alt4",
-        	"std" => "Reviews of the best cheap web hosting providers at WebHostingRating.com.",
+        	"std" => "",
             "type" => "text"),    
 			
 	array(  "name" => "Banner-4 Url",
 			"desc" => "Enter the banner-4 url here.",
             "id" => $shortname."_url4",
-            "std" => "http://webhostingrating.com",
+            "std" => "",
             "type" => "text"),
 	
 	array(  "name" => "Banner-4 link title",
 			"desc" => "Enter the banner-4 title here.",
             "id" => $shortname."_lab4",
-            "std" => "Web Hosting Rating - Customer reviews of the best web hosts",
+            "std" => "",
             "type" =>"text"), 	
 		
 	array("type" => "close"),	
@@ -347,7 +347,7 @@ case "checkbox":
 <input type="hidden" name="action" value="reset" />
 </p>
 </form>
-<p style="text-align:right;"> <small> WordPress themes from <a href="http://www.fabthemes.com/">FabThemes.com</a> </small>
+<p style="text-align:right;">
 </div>
 <?php
 }

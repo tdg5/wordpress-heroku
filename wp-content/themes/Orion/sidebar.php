@@ -1,8 +1,6 @@
 <div class="five columns ">
 
 <div id="right">
-<!-- 125px banners -->	
-<?php include (TEMPLATEPATH . '/sponsors.php'); ?>	
 
 <!-- Sidebar widgets -->
 <div class="sidebar">
